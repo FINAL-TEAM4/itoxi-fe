@@ -8,7 +8,7 @@ import LoginModal from "@/components/modal/LoginModal";
 import HomeEventList from "@/components/HomeEventList";
 import dog from '@/assets/defaultImage.png'
 import defaultImage from '@/assets/defaultImage.png'
-import 키트배너 from '@/assets/키트배너.png'
+import kitbanner from '@/assets/kitbanner.webp'
 import { useSetRecoilState } from "recoil";
 import { kitModalState, loginModalState } from "@/store/challengeState";
 import { useScrollUl } from "@/utils/Scroll";
@@ -193,7 +193,7 @@ const Home = () => {
           
           <div className={styles.kit}>
             <div className={styles.title}> 검진 키트 결과 보기 </div>
-            <img src={키트배너} alt="" className={styles.image} onClick={() => setKitOpen(true)}/>
+            <img src={kitbanner} alt="" className={styles.image} onClick={() => setKitOpen(true)}/>
           </div>   
         </div>
         <MainTab />
