@@ -17,7 +17,7 @@ import floating from "@/assets/X.png";
 import concern_icon from "@/assets/concerns_icon.svg";
 import freetalk_icon from "@/assets/freetalk_icon.svg";
 import default_user from "@/assets/user.png";
-import banner from "@/assets/키트배너.png";
+import banner from "@/assets/kitbanner.webp";
 
 import LoginModal from "@/components/modal/LoginModal";
 import { getCookie } from "@/utils/Cookie";

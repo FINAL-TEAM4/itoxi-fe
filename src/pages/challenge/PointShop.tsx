@@ -1,7 +1,7 @@
 import MainTab from "@/components/MainTab";
 import Background from "@/components/Background";
 import styles from '@/styles/pointshop.module.scss'
-import KitBanner from '@/assets/키트배너.png'
+import kitbanner from '@/assets/kitbanner.webp'
 import product1 from '@/assets/product1.svg'
 import product2 from '@/assets/product2.svg'
 import product3 from '@/assets/product3.svg'
@@ -36,7 +36,7 @@ const PointShop = () => {
         <ChallengeProfile />
 
         <div className={styles.ad} onClick={()=>setKitOpen(true)}>
-          <img src={KitBanner} alt="" />
+          <img src={kitbanner} alt="" />
           <div className={styles.banner}>프로모션 배너</div>
           <div className={styles.banner_sub}>프로모션 배너 서브텍스트</div>
         </div>
