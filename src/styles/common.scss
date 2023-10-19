@@ -30,6 +30,11 @@
     align-items: center;
     .petnuri {
       width: 420px;
+      height: 99px;
+    }
+    .backdog{
+      width: 460px;
+      height: 396px;
     }
     .navChallenge {
       width: 306px;
@@ -60,6 +65,10 @@
           margin-right:40px ;
         }
        }
+       img {
+        width: 24px;
+        height: 24px;
+       }
     }
   }
   .back_content {
@@ -89,6 +98,10 @@
   border-radius: 84px;
   border: 2.5px solid #BEE4FA;
   background: #FFF;
+  img {
+    width: 24px;
+    height: 24px;
+  }
 }
 
 @media (max-width:1280px) {
@@ -119,6 +132,15 @@
     }
   }
 }
+
+@media (max-width:500px) {
+   .back_container{
+    .back_content {
+      width: 100%;
+    }
+   }
+  }
+
 
 @media (max-height:768px) {
   .back_container{

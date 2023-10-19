@@ -72,8 +72,8 @@ export const useScrollUl = () => {
     const element = scrollRef.current;
     if (element) {
       element.addEventListener("wheel", handleWheel, { passive: false });
-      element.addEventListener("touchstart", handleTouchStart);
-      element.addEventListener("touchmove", handleTouchMove);
+      element.addEventListener("touchstart", handleTouchStart, { passive: false });
+      element.addEventListener("touchmove", handleTouchMove, { passive: false });
 
       return () => {
         if (element) {

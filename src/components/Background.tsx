@@ -1,8 +1,8 @@
 import { ReactNode } from "react";
 import { useNavigate } from "react-router-dom";
 import "@/styles/common.scss"
-import BackPetnuri from '@/assets/BackPetnuri.png'
-import BackDog from '@/assets/BackDog.png'
+import BackPetnuri from '@/assets/BackPetnuri.webp'
+import BackDog from '@/assets/BackDog.webp'
 import Person from '@/assets/person.svg'
 import DogIcon from '@/assets/dogicon.svg'
 import Question from '@/assets/question-circle-bold.svg'
@@ -29,7 +29,7 @@ const Background = ({ children }:BackgroundProps) => {
       <div className="back_container">
         <div className="background">
           <img src={BackPetnuri} alt="" className="petnuri"/>
-          <img src={BackDog} alt="" />
+          <img src={BackDog} alt="" className="backdog"/>
           <button className="navChallenge" onClick={onChallenge}>챌린지 바로가기</button>
           <div className="explain">
             <button onClick={onQuetion}> <img src={Person} alt="" /> 회원 혜택</button>
