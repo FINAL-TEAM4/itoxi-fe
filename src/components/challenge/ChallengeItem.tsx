@@ -3,12 +3,12 @@ import Pagination from "../Pagination";
 import styles from "@/styles/challenge/challengeitem.module.scss";
 import { useSetRecoilState } from "recoil";
 import { kitModalState } from "@/store/challengeState";
-import 표지 from "@/assets/표지.png";
-import 커밍순 from "@/assets/커밍순.png";
-import 홍보1 from "@/assets/홍보1.png";
-import 홍보2 from "@/assets/홍보2.png";
-import 홍보3 from "@/assets/홍보3.png";
-import 홍보4 from "@/assets/홍보4.png";
+import kit1 from "@/assets/kit1.webp";
+import kit6 from "@/assets/kit6.webp";
+import kit2 from "@/assets/kit2.webp";
+import kit3 from "@/assets/kit3.webp";
+import kit4 from "@/assets/kit4.webp";
+import kit5 from "@/assets/kit5.webp";
 
 const ChallengeItem = () => {
   const setKitOpen = useSetRecoilState(kitModalState);
@@ -16,7 +16,7 @@ const ChallengeItem = () => {
 
   // 각 페이지에 해당하는 이미지 URL 배열
 
-  const imageUrls = [표지, 홍보1, 홍보2, 홍보3, 홍보4, 커밍순];
+  const imageUrls = [kit1, kit2, kit3, kit4, kit5, kit6];
 
   const totalPages = imageUrls.length; // 전체 페이지
 
